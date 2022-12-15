@@ -1,6 +1,6 @@
 #include "Main-math-functions-c-/main.hpp"
 
-unsigned int rem (int a, int b)
+unsigned int remOfDiv (int a, int b)
 {
   if (a - a / b * b >= 0)
     return a - a / b * b;
