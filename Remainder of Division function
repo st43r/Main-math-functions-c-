@@ -1,0 +1,30 @@
+#include <iostream>
+
+using namespace std;
+
+typedef unsigned int uint;
+
+uint rem (int a, int b);
+
+int
+main ()
+{
+
+  int a, b;
+
+  cin >> a >> b;
+
+  cout << rem (a, b) << endl;
+
+}
+
+uint
+rem (int a, int b)
+{
+  if (a - a / b * b >= 0)
+    return a - a / b * b;
+  else if ((a - a / b * b < 0) && (a / b < 0))
+    return a - (a / b - 1) * b;
+  else if ((a - a / b * b < 0) && (a / b > 0))
+    return a - (a / b + 1) * b;
+}
