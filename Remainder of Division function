@@ -1,4 +1,4 @@
-#include "Src/main.cpp"
+#include "main/main.hpp"
 
 unsigned int rem (int a, int b)
 {
