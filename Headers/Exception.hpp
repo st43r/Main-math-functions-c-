@@ -6,7 +6,7 @@
 #include <iostream>
 
 /// <summary>
-/// Исключение при пустом объекте.
+/// РСЃРєР»СЋС‡РµРЅРёРµ РїСЂРё РїСѓСЃС‚РѕРј РѕР±СЉРµРєС‚Рµ.
 /// </summary>
 struct ArgumentNullException : public std::exception
 {
