@@ -4,9 +4,9 @@
 
 
 /// <summary>
-/// Проверяет <paramref name="value"/> на пустоту.
+/// РџСЂРѕРІРµСЂСЏРµС‚ <paramref name="value"/> РЅР° РїСѓСЃС‚РѕС‚Сѓ.
 /// </summary>
-/// <param name="value">Значение.</param>
+/// <param name="value">Р—РЅР°С‡РµРЅРёРµ.</param>
 void CheckNull(int value)
 {
 	if (value == NULL)
