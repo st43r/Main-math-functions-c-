@@ -1,11 +1,11 @@
 #include "Validation.hpp"
 
 /// <summary>
-/// Получает математический остаток от деления.
+/// РџРѕР»СѓС‡Р°РµС‚ РјР°С‚РµРјР°С‚РёС‡РµСЃРєРёР№ РѕСЃС‚Р°С‚РѕРє РѕС‚ РґРµР»РµРЅРёСЏ.
 /// </summary>
-/// <param name="number">Делимое.</param>
-/// <param name="divider">Делитель.</param>
-/// <returns>Целое число.</returns>
+/// <param name="number">Р”РµР»РёРјРѕРµ.</param>
+/// <param name="divider">Р”РµР»РёС‚РµР»СЊ.</param>
+/// <returns>Р¦РµР»РѕРµ С‡РёСЃР»Рѕ.</returns>
 unsigned int DivisionRemainder(int number, int divider)
 {
 	CheckNull(number);
