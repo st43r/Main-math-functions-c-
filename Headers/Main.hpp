@@ -4,7 +4,6 @@
 #define _main_hpp_
 
 typedef unsigned int uint;
-typedef unsigned short ushort;
 
 /// <summary>
 /// Получает математический остаток от деления.
