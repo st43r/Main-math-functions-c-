@@ -1,4 +1,5 @@
 #include "Validation.hpp"
+#include "Main.hpp"
 
 /// <summary>
 /// Получает математический остаток от деления.
@@ -6,7 +7,7 @@
 /// <param name="number">Делимое.</param>
 /// <param name="divider">Делитель.</param>
 /// <returns>Целое число.</returns>
-unsigned int DivisionRemainder(int number, int divider)
+uint DivisionRemainder(int number, int divider)
 {
 	CheckNull(number);
 	CheckNull(divider);
