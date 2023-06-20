@@ -3,18 +3,18 @@
 
 
 /// <summary>
-/// Проверяет <paramref name="value"/> на допустимое.
+/// РџСЂРѕРІРµСЂСЏРµС‚ <paramref name="value"/> РЅР° РґРѕРїСѓСЃС‚РёРјРѕРµ.
 /// </summary>
-/// <param name="value">Значение.</param>
-/// <param name="minValue">Минимально допустимое значение.</param>
-/// <param name="maxValue">Максимально допустимое значение.</param>
+/// <param name="value">Р—РЅР°С‡РµРЅРёРµ.</param>
+/// <param name="minValue">РњРёРЅРёРјР°Р»СЊРЅРѕ РґРѕРїСѓСЃС‚РёРјРѕРµ Р·РЅР°С‡РµРЅРёРµ.</param>
+/// <param name="maxValue">РњР°РєСЃРёРјР°Р»СЊРЅРѕ РґРѕРїСѓСЃС‚РёРјРѕРµ Р·РЅР°С‡РµРЅРёРµ.</param>
 void CheckValue(int value, int minValue, int maxValue);
 
 
 /// <summary>
-/// Проверяет делитель на равенство нулю.
+/// РџСЂРѕРІРµСЂСЏРµС‚ РґРµР»РёС‚РµР»СЊ РЅР° СЂР°РІРµРЅСЃС‚РІРѕ РЅСѓР»СЋ.
 /// </summary>
-/// <param name="value">Значение.</param>
+/// <param name="value">Р—РЅР°С‡РµРЅРёРµ.</param>
 void CheckZero(int value);
 
 
