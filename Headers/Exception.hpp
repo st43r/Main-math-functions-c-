@@ -4,7 +4,7 @@
 #include <exception>
 
 /// <summary>
-/// Исключение при делителе равном нулю.
+/// РСЃРєР»СЋС‡РµРЅРёРµ РїСЂРё РґРµР»РёС‚РµР»Рµ СЂР°РІРЅРѕРј РЅСѓР»СЋ.
 /// </summary>
 struct DivideByZeroException : public std::exception
 {
