@@ -8,6 +8,6 @@ void CheckValue(int value, int minValue, int maxValue)
 {
 	if (value < minValue || value > maxValue)
 	{
-		throw std::out_of_range("Значение должно быть в диапазоне между " + std::to_string(minValue) + " - " + std::to_string(maxValue));
+		throw std::out_of_range("Р—РЅР°С‡РµРЅРёРµ РґРѕР»Р¶РЅРѕ Р±С‹С‚СЊ РІ РґРёР°РїР°Р·РѕРЅРµ РјРµР¶РґСѓ " + std::to_string(minValue) + " - " + std::to_string(maxValue));
 	}
 };
